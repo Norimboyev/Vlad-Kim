@@ -1,0 +1,120 @@
+.footer {
+  padding: 64px 0 32px;
+  background: var(--black);
+}
+.footer__wrap-number {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 350px;
+  margin-left: auto;
+  margin-bottom: 77px;
+}
+.footer__wrap-number-num {
+  font-family: var(--meb);
+  font-size: 32px;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  padding-bottom: 5px;
+}
+.footer__wrap-number-text {
+  color: rgba(255, 255, 255, 1);
+}
+.footer__wrap-box-media {
+  display: flex;
+  justify-content: left;
+  gap: 120px;
+}
+.footer__wrap-box-media-link {
+  color: rgba(255, 255, 255, 1);
+}
+.footer__wrap-box-up {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  gap: 5px;
+}
+.footer__wrap-box {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__wrap-border {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 24px 0 32px;
+}
+.footer__wrap-desc {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+}
+.footer__wrap-desc-text {
+  color: rgba(255, 255, 255, 1);
+}
+@media only screen and (max-width: 768px) {
+  .footer__wrap-number-num {
+    font-size: 20px;
+  }
+  .footer__wrap-number {
+    max-width: 224px;
+    gap: 8px;
+  }
+  .footer__wrap-number-text {
+    font-size: 16px;
+    font-family: var(--mr);
+  }
+  .footer__wrap-box {
+    gap: 50px;
+  }
+  .footer__wrap-box-media-link {
+    font-size: 16px;
+  }
+  .footer__wrap-box-media {
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .footer__wrap-number-num {
+    font-size: 11px;
+  }
+  .footer__wrap-number {
+    max-width: 140px;
+    gap: 8px;
+  }
+  .footer__wrap-number-text {
+    font-size: 10px;
+    font-family: var(--mr);
+  }
+  .footer__wrap-box {
+    gap: 26px;
+  }
+  .footer__wrap-box-media-link {
+    font-size: 10px;
+  }
+  .footer__wrap-box-media {
+    width: 140px;
+    flex-wrap: wrap;
+    gap: 16px 10px;
+  }
+  .footer__wrap-desc-text{
+    font-size: 8px;
+    font-family: var(--mr);
+    font-weight: 400;
+  }
+  .footer__wrap-box-up{
+    font-size: 10px;
+  }
+  .footer__wrap-desc{
+    gap: 0;
+    justify-content: space-between;
+  }
+  .footer__wrap-number{
+    margin: 0;
+    margin-bottom: 26px;
+    margin-right: auto;
+    gap: 8px;
+  }
+  .footer{
+    padding: 40px 0 20px;
+  }
+}

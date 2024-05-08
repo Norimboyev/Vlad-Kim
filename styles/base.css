@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* list-style: none; */
+  text-decoration: none;
+}
+
+body {
+  background: var(--white);
+  font-family: var(--msb);
+  font-weight: 600;
+  color: var(--black);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --grey: #c8c8c8;
+  --blue: #23009a;
+  --yellow: #ffe600;
+  --nav-color: #121212;
+  --mb: "mb", sans-serif;
+  --msb: "msb", sans-serif;
+  --meb: "meb", sans-serif;
+  --mm: "mm", sans-serif;
+  --mr: "mr", sans-serif;
+}
